@@ -1,8 +1,24 @@
 #phase-button{
 
   margin-bottom: 3px;
-
   text-align: center;
+  background-color: #051E55;
+  border-color: transparent;
+}
+
+#core-button{
+  background-color: #051E55;
+}
+
+#finance-core-button{
+     background-color: #69A102;
+     border-color: transparent;
+}
+
+#personal-core-button{
+  background-color: #BD5945;
+  border-color: transparent;
+
 }
 
 #pm-core-container{
@@ -10,12 +26,12 @@
   padding-right: 0px;
 }
 
-.header{
-  height:100px;
-}
 
 .header-home{
-  height:100px;
+  height:50px;
+  border-bottom-color: black;
+  padding-left: 10px;
+  padding-top: 4px;
 }
 
 #phase-container{
@@ -24,23 +40,28 @@
 }
 
 #first-container{
-  border-color: blue;
+  border-color: transparent;
   border-style: solid;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  background-color: transparent;
+
 }
 
 #second-container{
-  border-color: blue;
+  border-color: transparent;
   border-style: solid;
   padding: 20px;
+  padding-top: 0px;
+  background-color: transparent;
 
 }
 
 #third-container{
-  border-color: blue;
+  border-color: transparent;
   border-style: solid;
   padding: 20px;
+  padding-top: 0px;
+  background-color: transparent;
 }
 
 #personal-finance-row{
@@ -51,4 +72,11 @@
 #personal-row{
 
   padding-top: 20px;
+}
+
+#test{
+
+  height:100px;
+  width:100px;
+  background-color:red;
 }
