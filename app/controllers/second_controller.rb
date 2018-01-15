@@ -30,4 +30,10 @@ class SecondController < ApplicationController
   def arguing
   end
 
+  def speaker
+  end
+
+  def scope
+  end
+
 end
