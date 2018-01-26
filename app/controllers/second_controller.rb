@@ -36,4 +36,12 @@ class SecondController < ApplicationController
   def scope
   end
 
+  def structure
+  end
+
+  def skeleton
+  end
+
+  def surface
+  end
 end
