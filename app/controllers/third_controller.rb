@@ -18,5 +18,8 @@ class ThirdController < ApplicationController
   def change
   end
 
+  def vocabulary
+  end
+
 
 end

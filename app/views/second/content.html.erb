@@ -1,1 +1,36 @@
-persuade.html.erb
+Content:
+<div class="container-fluid">
+   <div class="row">
+
+    <div class="col-md-6">
+          <%= link_to 'Vocabulary', {controller: 'third', action: 'vocabulary'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+        </div>
+        <div class="col-md-6">
+          <%= link_to '-', {controller: 'second', action: 'delivery'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+        </div>
+
+
+      </div>
+      <div class="row">
+       <div class="col-md-6">
+           <%= link_to '-', {controller: 'second', action: 'content'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+        </div>
+        <div class="col-md-6">
+          <%= link_to '-', {controller: 'second', action: 'persuasion'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+        </div>
+
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <%= link_to '-', {controller: 'second', action: 'persuasion'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+        </div>
+         <div class="col-md-6">
+          <%= link_to '-', {controller: 'second', action: 'arguing'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+        </div>
+
+      </div>
+</div>
