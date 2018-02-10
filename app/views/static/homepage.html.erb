@@ -7,54 +7,31 @@
     PM
   <div class="row">
     <div class="col-md-12">
-      <div class="row">
-        <div class="col-lg-4">
-        </div>
-        <div class="col-lg-1" id="phase-container">
 
-        <%= link_to 'Research', {action: 'research'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
-
-        </div>
-        <div class="col-lg-1" id="phase-container">
-
-          <%= link_to 'Design', {action: 'design'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
-
-        </div>
-        <div class="col-lg-1" id="phase-container">
-          <%= link_to 'Engineering', {action: 'engineering'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
-
-        </div>
-        <div class="col-lg-1" id="phase-container">
-          <%= link_to 'Analytics', {action: 'analytics'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
-
-        </div>
-        <div class="col-lg-1" id="phase-container">
-          <%= link_to 'Marketing', {action: 'marketing'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
-
-        </div>
-        <div class="col-lg-3">
-        </div>
-
-
-      </div>
       <div class="row">
         <div class="col-md-4">
+          <%= link_to 'Research', {action: 'research'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+          <%= link_to 'Design', {action: 'design'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+          <%= link_to 'Engineering', {action: 'engineering'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+          <%= link_to 'Analytics', {action: 'analytics'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+          <%= link_to 'Marketing', {action: 'marketing'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
         </div>
-        <div class="col-md-5" id="pm-core-container">
-           <%= link_to 'Finance', {action: 'finance'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-            <%= link_to 'Execution', {action: 'execution'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-             <%= link_to 'Decision-making', {action: 'decision'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-              <%= link_to 'Strategy', {action: 'strategy'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-               <%= link_to 'Communication', {action: 'communication'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-                <%= link_to 'Product sense', {action: 'product'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-                 <%= link_to 'Industry trends', {action: 'industry'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-                 <%= link_to 'PM networking', {action: 'pmnetworking'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-                 <%= link_to 'Productivity', {action: 'productivity'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-                 <%= link_to 'Coaching & leadership', {action: 'coaching'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
-                 <%= link_to 'Personal Brand', {action: 'coaching'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
+        <div class="col-md-4">
+
+           <%= link_to 'Finance', {action: 'finance'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+            <%= link_to 'Execution', {action: 'execution'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+             <%= link_to 'Decision-making', {action: 'decision'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+              <%= link_to 'Strategy', {action: 'strategy'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
+
+                 <%= link_to 'Industry trends', {action: 'industry'}, {class:'btn btn-primary btn-block', id:'phase-button'} %>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
+           <%= link_to 'Communication', {action: 'communication'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
+           <%= link_to 'Productivity', {action: 'productivity'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
+           <%= link_to 'PM networking', {action: 'pmnetworking'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
+            <%= link_to 'Coaching & leadership', {action: 'coaching'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
+                 <%= link_to 'Personal Brand', {action: 'coaching'}, {class:'btn btn-primary btn-block', id:'core-button'} %>
         </div>
       </div>
     </div>
@@ -84,61 +61,32 @@
       Personal
 
      <div class="row" id="personal-row">
-         <div class="col-md-3">
+         <div class="col-md-4">
            <%= link_to 'Family', {action: 'family'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-        </div>
-        <div class="col-md-3">
-
-           <%= link_to 'Hobbies', {action: 'hobbies'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-
-        </div>
-        <div class="col-md-3">
-           <%= link_to 'Social Networking', {action: 'snetworking'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-
-        </div>
-        <div class="col-md-3">
-           <%= link_to 'Culture', {action: 'culture'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-
-        </div>
-      </div><!-- end row -->
-
-       <div class="row" id="personal-row">
-         <div class="col-md-3">
-           <%= link_to 'Soul', {action: 'soul'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-        </div>
-        <div class="col-md-3">
-
-           <%= link_to 'News', {action: 'news'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-
-        </div>
-        <div class="col-md-3">
-           <%= link_to 'Exercise', {action: 'exercise'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-
-        </div>
-        <div class="col-md-3">
-           <%= link_to 'Lazy', {action: 'lazy'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
-
-        </div>
-      </div><!-- end row -->
-
-      <div class="row" id="personal-row">
-         <div class="col-md-3">
            <%= link_to 'Friends', {action: 'soul'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+            <%= link_to 'Social Networking', {action: 'snetworking'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+             <%= link_to 'Lazy', {action: 'lazy'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
         </div>
-        <div class="col-md-3">
-
+        <div class="col-md-4">
+          <%= link_to 'Exercise', {action: 'exercise'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+           <%= link_to 'Hobbies', {action: 'hobbies'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+           <%= link_to 'Health', {action: 'exercise'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
            <%= link_to 'Habits', {action: 'news'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
 
         </div>
-        <div class="col-md-3">
-           <%= link_to 'Health', {action: 'exercise'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+        <div class="col-md-4">
 
-        </div>
-        <div class="col-md-3">
+
+
+             <%= link_to 'News', {action: 'news'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+           <%= link_to 'Culture', {action: 'culture'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
            <%= link_to 'Mental agility', {action: 'lazy'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+           <%= link_to 'Soul', {action: 'soul'}, {class:'btn btn-warning btn-block', id:'personal-core-button'} %>
+           </div>
 
-        </div>
       </div><!-- end row -->
+
+
 
 
   </div><!-- third container -->
